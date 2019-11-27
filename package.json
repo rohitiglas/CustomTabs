@@ -10,10 +10,13 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-community/blur": "^3.3.1",
     "react": "16.9.0",
     "react-native": "0.61.5",
+    "react-native-agora": "^2.9.1-alpha.2",
     "react-native-gesture-handler": "^1.5.1",
     "react-native-reanimated": "^1.4.0",
+    "react-native-router-flux": "^4.0.6",
     "react-native-screens": "^2.0.0-alpha.12",
     "react-native-vector-icons": "^6.6.0",
     "react-navigation": "^4.0.10",

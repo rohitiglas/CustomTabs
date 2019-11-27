@@ -13,7 +13,7 @@ import {
     Dimensions, PixelRatio,
 } from 'react-native';
 import MaterialAnimatedView from 'src/components/MeterialCommunityIcons'
-// import Icons from "react-native-vector-icons/MaterialCommunityIcons";
+import Icons from "react-native-vector-icons/MaterialCommunityIcons";
 /*utils*/
 
 
@@ -306,13 +306,13 @@ export default class ArtistScreen extends Component {
                     backgroundColor: headerBackgroundColor,
                 }]}>
 
-                    {/*<View style={styles.headerLeftIcon}>*/}
-                        {/*<Icons name={"arrow-left"} size={25} color={HEADER_BACK_ICON_COLOR}/>*/}
-                    {/*</View>*/}
+                    <View style={styles.headerLeftIcon}>
+                        <Icons name={"arrow-left"} size={25} color={HEADER_BACK_ICON_COLOR}/>
+                    </View>
 
-                    {/*<View style={styles.headerRightIcon}>*/}
-                        {/*<Icons name={"settings"} size={25} color={HEADER_BACK_ICON_COLOR}/>*/}
-                    {/*</View>*/}
+                    <View style={styles.headerRightIcon}>
+                        <Icons name={"settings"} size={25} color={HEADER_BACK_ICON_COLOR}/>
+                    </View>
 
                     <Animated.Text
                         style={[styles.headerTitle, {

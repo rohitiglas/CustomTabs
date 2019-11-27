@@ -17,6 +17,7 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 
 const HomeTab = createStackNavigator(
     {
+        ArtistScreen:ArtistScreen,
 
         Login: Login ,
         SignUp: Register ,
